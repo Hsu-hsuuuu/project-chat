@@ -11,6 +11,8 @@
     .chat_window {
         width: 95vw;
         height: 90vh;
+        display: flex;
+        justify-content: center;
 
         border-radius: 17px;
         background-color: #090909;
