@@ -3,7 +3,7 @@ import styles from './Chat.module.css';
 
 const Chat: FC = () => {
   return (
-    <div className={ styles.app }>
+    <div className={ styles.chat }>
       
     </div>
   );
