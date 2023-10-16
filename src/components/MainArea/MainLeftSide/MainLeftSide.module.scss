@@ -4,4 +4,24 @@
 
 .main_left {
     width: 37%;
+    margin-top: 1%;
+
+    .contact {
+        height: 10%;
+        margin-right: 3%;
+        display: flex;
+        align-items: center;
+
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: #141414;
+    }
+
+    .contact_photo {
+        width: 2.5vw;
+        height: 2.5vw;
+
+        border-radius: 50%;
+        background-color: gray;
+    }
 }

@@ -4,7 +4,9 @@ import styles from './MainLeftSide.module.scss';
 const MainLeftSide: FC = () => {
     return (
         <div className={ styles.main_left }>
-            left
+            <div className={ styles.contact }>
+                <div className={ styles.contact_photo}></div> {/* photo */}
+            </div>
         </div>
     );
 }

@@ -1,4 +1,12 @@
 .main_right {
     width: 64.78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+    .preview_text {
+        font-weight: 300;
+        font-style: italic;
+        color: #7D7D7D;
+    }
 }
