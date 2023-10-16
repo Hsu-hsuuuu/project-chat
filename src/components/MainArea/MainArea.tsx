@@ -1,8 +1,13 @@
 import React, { FC } from 'react';
+import styles from './MainArea.module.scss';
+import MainLeftSide from './MainLeftSide/MainLeftSide';
+import MainRightSide from './MainRightSide/MainRightSide';
 
 const MainArea: FC = () => {
     return (
-        <div>
+        <div className={ styles.main }>
+            <MainLeftSide />
+            <MainRightSide />
         </div>
     );
 }
