@@ -1,5 +1,31 @@
+* {
+    margin: 0;
+}
+
 .left_side {
     width: 34.86%;
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin: 0.6% 1% 0.6% 1%;
+
+    .my_profile_block {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+        .profile_text {
+            font-size: 12px;
+        }
+
+        .my_profile_button {
+            width: 3vw;
+            height: 3vw;
+            background-color: gray;
+
+            border: 1px solid #7FFFAB;
+            border-radius: 50%;
+            cursor: pointer;
+        }
 }
