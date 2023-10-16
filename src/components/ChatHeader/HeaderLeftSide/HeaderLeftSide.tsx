@@ -4,7 +4,6 @@ import styles from './HeaderLeftSide.module.scss'
 const HeaderLeftSide: FC = () => {
     return (
         <div className={ styles.left_side }>
-            <div>Logo</div>
             <h1>CHAT</h1>
             <div>
                 <h3>Profile</h3>
