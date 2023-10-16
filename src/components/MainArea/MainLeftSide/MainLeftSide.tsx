@@ -1,8 +1,9 @@
 import React, { FC } from 'react';
+import styles from './MainLeftSide.module.scss';
 
 const MainLeftSide: FC = () => {
     return (
-        <div>
+        <div className={ styles.main_left }>
             left
         </div>
     );

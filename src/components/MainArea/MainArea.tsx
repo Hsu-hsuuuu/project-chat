@@ -7,6 +7,7 @@ const MainArea: FC = () => {
     return (
         <div className={ styles.main }>
             <MainLeftSide />
+            <span className={ styles.scroll }/>
             <MainRightSide />
         </div>
     );
