@@ -1,4 +1,4 @@
-import React, { FC, useState } from 'react';
+import React, { FC } from 'react';
 import ChatHeader from './components/ChatHeader/ChatHeader';
 import styles from './Chat.module.scss';
 import MainArea from './components/MainArea/MainArea';

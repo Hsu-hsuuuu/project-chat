@@ -29,10 +29,13 @@
         .my_profile_button {
             width: 3vw;
             height: 3vw;
+            z-index: 99;
+
+            cursor: pointer;
             background-color: gray;
 
             border: 1px solid #7FFFAB;
             border-radius: 50%;
-            cursor: pointer;
+            
         }
 }
