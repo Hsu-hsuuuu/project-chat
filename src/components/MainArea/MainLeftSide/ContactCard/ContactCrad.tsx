@@ -7,11 +7,11 @@ const ContactCard: FC = () => {
             <div className={ styles.contact_photo }></div> {/* photo */}
             <div className={ styles.text_info_block }>
                 <div className={ styles.name_block }>
-                    <h2 className={ styles.contact_name }>name</h2>
-                    <h2 className={ styles.contact_lastname }>lastname</h2>
+                    <h2>Name</h2>
+                    <h2>Lastname</h2>
                 </div>
                 <div className={ styles.last_message_block }>
-                    <p className={ styles.last_message }>last msg</p>
+                    <p className={ styles.last_message }>Last message...</p>
                 </div>
             </div>
             <div className={ styles.new_message_counter }></div> 
