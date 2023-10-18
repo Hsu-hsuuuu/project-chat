@@ -1,12 +1,11 @@
 import React, { FC } from 'react';
 import styles from './MainLeftSide.module.scss';
+import ContactCard from './ContactCard/ContactCrad';
 
 const MainLeftSide: FC = () => {
     return (
         <div className={ styles.main_left }>
-            <div className={ styles.contact }>
-                <div className={ styles.contact_photo}></div> {/* photo */}
-            </div>
+            <ContactCard />
         </div>
     );
 }
