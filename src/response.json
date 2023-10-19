@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "photo": "sss",
+        "name": "Alex",
+        "lastname": "Petrov",
+        "lastmsg": "Quia et suscipit\nsuscipito",
+        "countmsg": 2
+    },
+    {
+        "id": 2,
+        "photo": "aaa",
+        "name": "Ivan",
+        "lastname": "Ivanov",
+        "lastmsg": "Quia et suscipit",
+        "countmsg": 1
+    },
+    {
+        "id": 3,
+        "photo": "ddd",
+        "name": "Petr",
+        "lastname": "Sidorov",
+        "lastmsg": "Quia et uscipito",
+        "countmsg": 3
+    }
+]
