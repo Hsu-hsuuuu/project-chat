@@ -1,26 +1,42 @@
 [
     {
         "id": 1,
-        "photo": "sss",
+        "photo": "https://demotivation.ru/wp-content/uploads/2023/09/4EP7I1-4.jpg",
         "name": "Alex",
         "lastname": "Petrov",
-        "lastmsg": "Quia et suscipit\nsuscipito",
+        "lastmsg": "Quia et suscipit nsuscipito",
         "countmsg": 2
     },
     {
         "id": 2,
-        "photo": "aaa",
+        "photo": "https://demotivation.ru/wp-content/uploads/2023/09/5bf3c0db183561737c8b456f.jpg",
         "name": "Ivan",
         "lastname": "Ivanov",
-        "lastmsg": "Quia et suscipit",
-        "countmsg": 1
+        "lastmsg": "Aliquam id dui placerat, consequat mauris non",
+        "countmsg": 0
     },
     {
         "id": 3,
-        "photo": "ddd",
+        "photo": "https://demotivation.ru/wp-content/uploads/2021/03/3151f3ddd5acbec059fa8865890aa8e7-rain-coats-rain-jackets.jpg",
         "name": "Petr",
-        "lastname": "Sidorov",
-        "lastmsg": "Quia et uscipito",
+        "lastname": "Antonov",
+        "lastmsg": "Sed facilisis gravida turpis, id iaculis",
         "countmsg": 3
+    },
+    {
+        "id": 4,
+        "photo": "https://demotivation.ru/wp-content/uploads/2021/03/EXbgTIBXQAMV4WM.jpg",
+        "name": "Anna",
+        "lastname": "Svetlova",
+        "lastmsg": "Aenean tincidunt, lacus ut condimentum",
+        "countmsg": 0
+    },
+    {
+        "id": 5,
+        "photo": "https://demotivation.ru/wp-content/uploads/2022/01/35-5.jpg",
+        "name": "Lilia",
+        "lastname": "Ovechkina",
+        "lastmsg": "Hi! How are you?",
+        "countmsg": 1
     }
 ]

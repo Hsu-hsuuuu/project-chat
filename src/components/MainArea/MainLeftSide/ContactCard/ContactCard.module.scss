@@ -39,9 +39,21 @@
     .new_message_counter {
         width: 1.4vw;
         height: 1.4vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+        font-weight: 400;
+        color: #141414;
         border-radius: 50%;
         background-color: #99FFAF;
+    }
+
+    .new_message_counter_hidden {
+        width: 1.4vw;
+        height: 1.4vw;
+
+        visibility: hidden;
     }
 }
 

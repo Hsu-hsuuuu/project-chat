@@ -17,7 +17,7 @@ const MainLeftSide: FC = () => {
     const [contacts, setContacts] = useState<Array<Contact>>([]);
 
     useEffect(() => {
-        fetch('https://mocki.io/v1/084c9795-e9b3-4fa0-8a7b-dfed02fdbf29')
+        fetch('https://mocki.io/v1/2388b508-8810-4790-8725-f5e8aa8b157d')
             .then((response) => response.json())
             .then((value) => {
                 setContacts(value);
