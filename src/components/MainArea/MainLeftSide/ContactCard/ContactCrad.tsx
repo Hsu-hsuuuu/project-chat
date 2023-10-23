@@ -1,8 +1,9 @@
-import React, { FC } from 'react';
+import React, { FC, useState } from 'react';
 import styles from './ContactCard.module.scss'
 
 
 interface ContactProps {
+    id: number;
     photo: string;
     name: string;
     lastname: string;
@@ -10,11 +11,21 @@ interface ContactProps {
     countmsg?: number;
 }
 
-const ContactCard: FC<ContactProps> = ( {photo, name, lastname, lastmsg, countmsg}: ContactProps ) => {
-    console.log(countmsg)
+const ContactCard: FC<ContactProps> = ( {id, photo, name, lastname, lastmsg, countmsg}: ContactProps ) => {
+    const [choose, setChoose] = useState<number | null>(null) // state Функция выбора контакта по айди
+
+    const chatSelection = (id: number) => { // Функция выбора контакта по айди
+        if(choose !== id) {
+            return setChoose(id + 1);
+        }
+        setChoose(null);
+    }
+
+    console.log(choose)
+    
     return (
-        <div className={ styles.contact_card }>
-            <img src={photo} alt=""className={ styles.contact_photo } />
+        <div className={ styles.contact_card } onClick={() => chatSelection(id)}>
+            <img src={photo} alt="contact_photo" className={ styles.contact_photo } />
             <div className={ styles.text_info_block }>
                 <div className={ styles.name_block }>
                     <h2>{name}</h2>

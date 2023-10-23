@@ -24,13 +24,12 @@ const MainLeftSide: FC = () => {
             })
     }, [])
 
-    console.log(contacts)
-
     return (
         <div className={ styles.main_left }>
-            {contacts.map((contacts) => 
+            {contacts.map((contacts, i) => 
                 <ContactCard 
-                    key={contacts.id} 
+                    key={contacts.id}
+                    id={i}
                     photo={contacts.photo}
                     name={contacts.name}
                     lastname={contacts.lastname}
