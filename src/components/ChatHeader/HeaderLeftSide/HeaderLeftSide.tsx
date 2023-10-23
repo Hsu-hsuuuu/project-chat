@@ -15,13 +15,11 @@ const HeaderLeftSide: FC = () => {
         <div className={ styles.left_side }>
             <h1 className={ styles.chat_name }>CHAT</h1>
             <div className={ styles.my_profile_block }>
-                <h3 className={ styles.profile_text }>Profile</h3>
-                <button 
+                <h3 className={ styles.profile_text }>Profile/Settings</h3>
+                <img src="https://avatars.githubusercontent.com/u/122398890?v=4" alt="avatar"
                     className={ styles.my_profile_button }
                     onClick={ handlerOpenProfile }
-                >
-                    
-                </button>
+                />
                 {openProfile && <MyProfile />}
             </div>
         </div>
