@@ -16,7 +16,7 @@ const ContactCard: FC<ContactProps> = ( {id, photo, name, lastname, lastmsg, cou
 
     const chatSelection = (id: number) => { // Функция выбора контакта по айди
         if(choose !== id) {
-            return setChoose(id + 1);
+            return setChoose(id);
         }
         setChoose(null);
     }
