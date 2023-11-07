@@ -1,5 +1,5 @@
 import React, { FC, useEffect, useState } from 'react';
-import fetch from 'node-fetch';
+import axios from 'axios';
 import ContactCard from './ContactCard/ContactCrad';
 import styles from './MainLeftSide.module.scss';
 
@@ -17,10 +17,12 @@ const MainLeftSide: FC = () => {
     const [contacts, setContacts] = useState<Array<Contact>>([]);
 
     useEffect(() => {
-        fetch('https://mocki.io/v1/2388b508-8810-4790-8725-f5e8aa8b157d')
-            .then((response) => response.json())
-            .then((value) => {
-                setContacts(value);
+        axios.get<Contact[]>('https://mocki.io/v1/2388b508-8810-4790-8725-f5e8aa8b157d')
+            .then(response => {
+                setContacts(response.data)
+            })
+            .catch(error => {
+                console.log(error)
             })
     }, [])
 
